@@ -13,6 +13,7 @@ public class WelcomeController {
 
     @Autowired
     private WelcomeService welcomeService;
+    //zhl
 
     @RequestMapping("/saveData")
     public void saveData(String chinese,String engish,String imgsave,String imgnum) {
